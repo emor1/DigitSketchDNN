@@ -8,7 +8,17 @@ DNN Digit Predictorは[「ゼロから作るDeep Learning」](https://www.amazon
 
 ## Dependency
 
+* Language
+  * Python 3.10
+* Libraries
+  * Numpy 1.26.4
+  * Pygame 2.5.2
+
 ## Getting Started
+
+`$ pip install numpy pygame`
+
+`$ python main.py`
 
 ## References
 
