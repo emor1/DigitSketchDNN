@@ -1,3 +1,3 @@
 # Digit Sketch DNN
 
-![](img/sketch_dnn.gif)
+![DNN](img/sketch_dnn.gif)
