@@ -1,3 +1,3 @@
 # Digit Sketch DNN
 
-![DNN](img/sketch_dnn.gif)
+<img src="img/sketch_dnn.gif" width ="50%">
