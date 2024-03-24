@@ -2,10 +2,11 @@
 文字認識アプリケーション
 """
 
+import sys
 import numpy as np
 import pygame
 from pygame.locals import *
-from two_layer_net_backp import TwoLayerNet
+from layers.two_layer_net_backprop import TwoLayerNet
 
 # init
 pygame.init()
