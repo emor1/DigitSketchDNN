@@ -1,3 +1,12 @@
+"""
+0から作るディープラーニング4章を参考に実装
+
+The MIT License (MIT)
+Copyright (c) 2016 Koki Saitoh
+https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/ch04/gradient_simplenet.py
+"""
+
+
 import numpy as np
 from functions.function import cross_entropy_error, numerical_gradient, softmax
 

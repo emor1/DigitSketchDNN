@@ -1,3 +1,15 @@
+"""
+活性化関数など
+
+0から作るディープラーニング2~4章を参考に実装
+
+The MIT License (MIT)
+Copyright (c) 2016 Koki Saitoh
+https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/common/functions.py
+
+https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/common/gradient.py
+"""
+
 import numpy as np
 
 #---------------活性化関数---------------

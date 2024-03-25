@@ -1,3 +1,12 @@
+"""
+レイヤー（全結合層、活性化）
+
+0から作るディープラーニング5章を参考に実装
+
+The MIT License (MIT)
+Copyright (c) 2016 Koki Saitoh
+https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/common/layers.py
+"""
 import numpy as np
 
 # ReLU
