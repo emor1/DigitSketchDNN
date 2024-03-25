@@ -22,6 +22,7 @@ DNN Digit Predictorは[「ゼロから作るDeep Learning」](https://www.amazon
 
 ## Directory
 
+<pre>
 ├── README.md  
 ├── data  
 │   └── param.json  
@@ -34,6 +35,7 @@ DNN Digit Predictorは[「ゼロから作るDeep Learning」](https://www.amazon
 │   ├── layers.py  
 │   └── two_layer_net_backprop.py  
 └── main.py
+</pre>
 
 ## References
 
