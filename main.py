@@ -80,27 +80,30 @@ while True:
                 x = int((mouse_Pos[0]-offset_x)/cell_size)
                 y = int((mouse_Pos[1]-offset_y)/cell_size)
 
-                # マウスがあるセルを真っ白に、上下左右は+50明るくする
-                input_field[x][y] = (230,230,230)
+                # マウスがあるセルを(230,230,230)追加、上下左右は+50明るくする
+                lst = np.array(input_field[x][y])
+                lst += 230
+                lst = np.clip(lst, 0, 255)      #clipにより任意の最小値最大値に設定
+                input_field[x][y] = tuple(lst)
                 if x+1<input_x:
                     lst = np.array(input_field[x+1][y])
                     lst += 50
-                    lst = np.clip(lst, 0, 255)
+                    lst = np.clip(lst, 0, 255)  #clipにより任意の最小値最大値に設定
                     input_field[x+1][y] = tuple(lst)
                 if y+1 < input_y:
                     lst = np.array(input_field[x][y+1])
                     lst += 50
-                    lst = np.clip(lst, 0, 255)
+                    lst = np.clip(lst, 0, 255)  #clipにより任意の最小値最大値に設定
                     input_field[x][y+1] = tuple(lst)
                 if x-1 >= 0:
                     lst = np.array(input_field[x-1][y])
                     lst += 50
-                    lst = np.clip(lst, 0, 255)
+                    lst = np.clip(lst, 0, 255)  #clipにより任意の最小値最大値に設定
                     input_field[x-1][y] = tuple(lst)
                 if y-1 >= 0:
                     lst = np.array(input_field[x][y-1])
                     lst += 50
-                    lst = np.clip(lst, 0, 255)
+                    lst = np.clip(lst, 0, 255)  #clipにより任意の最小値最大値に設定
                     input_field[x][y-1] = tuple(lst)
 
                 # Prediction
